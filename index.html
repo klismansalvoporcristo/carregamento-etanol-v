@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INPASA BR</title>
+
+  <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;600&family=Montserrat:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="inputContainer">
+      <input type="number" class="inputN"  placeholder="Litros de Etanol" id="litrosEtn">
+      <input type="number" class="inputN"  placeholder="Litros de corante adicionado" id="litrosCor">
+      <button class="btnCalc" onclick="calcula()">CALCULAR</button>
+    </div>
+    <div class="outputContainer">
+      <h1 id="res">0 Ml de corante por metros cubicos foram utilizados</h1>
+      <img src="image/logo1.png" alt="">
+      <p>voltar para a pagina inicial <a href="https://carregamento-a-base-de-corante.netlify.app">clique aqui</a></p>
+    </div>
+  </div>
+
+  <script src="js/calc.js"></script>
+</body>
+</html>
